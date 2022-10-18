@@ -11,7 +11,7 @@ int main(void)
 	char low;
 	{
 
-	for (letter = 'a'; low <= 'z'; low++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 		if (letter != 'e' && low != 'q')
 			continue;
 				putchar(letter);
